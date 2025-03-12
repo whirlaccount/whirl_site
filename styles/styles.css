@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    max-height: 659px;
+}
+.book_a_demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: cornflowerblue;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.navbar_wrap{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    max-width: 1230px;
+    max-height: 75px;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.menu_item{
+    margin-right: 40px;
+    position: relative;
+}
+.menu_item:last-childe{
+    margin-right: 0;
+}
+.sign_in a{
+    text-decoration: none;
+}
+.sign_in{
+    display: flex;
+    flex-wrap: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-right: 40px;
+}
+.header_block{
+    height: 525px;
+    width: 321px;
+    margin:201.28px 760px 136.72px 105px ;
+    word-spacing: 5px;
+    font-size: 19px;
+}
+.buttons{
+    margin-top: 12px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+img{
+    height: 452px;
+    width: 422px;
+}
+
+
+/*.menu_item--active::before{
+    content: "";
+    height: 4px;
+    background-color: #11749e;
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+зачем active? и что это такое
+}
