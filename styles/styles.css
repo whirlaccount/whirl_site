@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Fraunces', sans-serif;
+}
+
 .header{
     width: 100vw;
     height: 100vh;
@@ -26,8 +33,13 @@
     align-items: center;
     max-width: 1230px;
     max-height: 75px;
-    padding-left: 105px;
-    padding-right: 105px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.navigate_links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .menu{
     display: flex;
@@ -39,25 +51,28 @@
     margin-right: 40px;
     position: relative;
 }
-.menu_item:last-childe{
+.menu_item:last-child{
     margin-right: 0;
 }
 .sign_in a{
     text-decoration: none;
+    margin-right: 40px;
 }
 .sign_in{
     display: flex;
-    flex-wrap: row nowrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 }
-.logo{
+#logo{
     margin-right: 40px;
+    width: 106px;
+    height: 37px;
 }
 .header_block{
     height: 525px;
     width: 321px;
-    margin:201.28px 760px 136.72px 105px ;
+    margin:201.28px 760px 136.72px 105px;
     word-spacing: 5px;
     font-size: 19px;
 }
@@ -71,6 +86,9 @@ img{
     width: 422px;
 }
 
+.wrapper {
+    max-width: 1130px;
+}
 
 /*.menu_item--active::before{
     content: "";
